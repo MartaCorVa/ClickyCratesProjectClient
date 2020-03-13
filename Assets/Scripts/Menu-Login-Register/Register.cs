@@ -26,17 +26,7 @@ public class Register : MonoBehaviour
     {
         Screen.orientation = ScreenOrientation.Portrait;
         player = FindObjectOfType<Player>();
-
-        //Datos por defecto
-        inputFirstName.text = "Joselito";
-        inputLastName.text = "Garcia";
-        inputCity.text = "Inca";
-        inputDateBirth.text = "1999-07-21";
-        inputEmail.text = "joselito@gmail.com";
-        inputNickName.text = "JoselitoG";
-        inputPassword.text = "seCret_20";
-        inputConfirmPassword.text = "seCret_20";
-}
+    }
 
     /// <summary>
     /// Method for validate if any input doesn't contain info

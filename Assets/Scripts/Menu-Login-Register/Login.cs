@@ -21,9 +21,6 @@ public class Login : MonoBehaviour
         Screen.orientation = ScreenOrientation.Portrait;
         player = FindObjectOfType<Player>();
 
-        inputEmail.text = "joselito@gmail.com";
-        inputPassword.text = "seCret_20";
-
         if (player.Login)
         {
             StartCoroutine(TryLogOut());
